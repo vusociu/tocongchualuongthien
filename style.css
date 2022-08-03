@@ -103,7 +103,7 @@ body{
     border-radius: 25px;
     box-shadow: 1px 5px 5px rgb(0,0,0,0.15);
     text-align: center;
-    margint-top: 15%;
+    top:20%;
     left: 8%;
     z-index: 2;
     opacity: 0;
