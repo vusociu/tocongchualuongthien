@@ -11,8 +11,8 @@
     <body>
         <div class="nen" width="50px"></div>
         <div class="hopthoai">
-            <h1>Thế mà có người quan tâm đồ đáng ghét ấy😘</h1>
-            <h2>Nhắn cho cậu ấy điii</h2>
+            <h2>Thế mà có người quan tâm đồ đáng ghét ấy😘</h2>
+            <span>Nhắn cho cậu ấy điii</span>
             <form action="https://www.facebook.com/messages/t/100003071579006">
                 <button id="btnac" type="submit">Okieee</button>
              </form>
@@ -21,7 +21,7 @@
         <div>
             <div id="content">Em có biết em là công chúa đáng ghét không❤️</div>
             <div class="im">
-                <img id ="imm" width="300px" src="https://img2.thuthuatphanmem.vn/uploads/2019/02/22/om-chat-trai-tim_121246075.gif" alt="">
+                <img id ="imm" src="https://img2.thuthuatphanmem.vn/uploads/2019/02/22/om-chat-trai-tim_121246075.gif" alt="">
             </div>
             <button id="yes">
                 <span></span><span></span><span></span><span></span>
@@ -31,16 +31,16 @@
             Hôngg</button>
         </div>
         <script>
-            var txt='Là một kẻ nhạt nhẽo,'+
-            'Tôi không giỏi văn thơ,'+
-            "Là một kẻ lúc nào cũng thẫn thờ,"+
-            "Tôi yêu em trong từng nhịp thở😍😍,";
+            var txt='Bỏ ngoài tai trăm lời tán tỉnh,'+
+            'Vì tôi chỉ thấy mình em xinh😘,'+
+            "Thề với chúa đây không phải là thính,"+
+            "Đây là em trong ánh mắt kẻ si tình😍😍,";
             var i=0;
             var speed=120;
             function typewt(){
                 if(i<txt.length){
                     var ch=txt.charAt(i)
-                    if(ch==",")	document.getElementById("po").innerHTML+="<br><br>";
+                    if(ch==",")	document.getElementById("po").innerHTML+="<br>";
                     else	document.getElementById("po").innerHTML+=txt.charAt(i);
                     i++;
                     setTimeout(typewt,speed);
